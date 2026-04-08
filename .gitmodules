@@ -1,0 +1,3 @@
+[submodule "themes/pathogens_theme"]
+	path = themes/pathogens_theme
+	url = https://github.com/ScilifelabDataCentre/node-pathogens-portal-theme/
