@@ -4,6 +4,10 @@ backend:
   base_url: https://sveltia-auth.usju5296.workers.dev
   auth_endpoint: /auth
 
+  # Add these two lines:
+  site_url: https://www.pathogens.ibt.unam.mx
+  display_url: https://www.pathogens.ibt.unam.mx
+
 # This is critical for local development
 local_backend: true
 
