@@ -1,5 +1,5 @@
 # Should be replaced with real one during implementation
-baseURL: "https://pathogensportal.node/"
+baseURL: "https://www.pathogens.ibt.unam.mx/"
 title: "Node Pathogens Portal"
 theme: "node-pathogens-portal-theme"
 
