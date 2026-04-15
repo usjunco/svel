@@ -1,7 +1,8 @@
 backend:
   name: github
   repo: usjunco/svel # Replace this!
-  branch: main
+  base_url: https://sveltia-auth.usju5296.workers.dev
+  auth_endpoint: /auth
 
 # This is critical for local development
 local_backend: true
