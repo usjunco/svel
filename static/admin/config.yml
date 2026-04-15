@@ -9,7 +9,7 @@ backend:
   display_url: https://www.pathogens.ibt.unam.mx
 
 # This is critical for local development
-local_backend: true
+local_backend: false
 
 media_folder: "static/images"
 public_folder: "/images"
