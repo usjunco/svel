@@ -5,11 +5,8 @@ backend:
   base_url: https://sveltia-auth.usju5296.workers.dev
   auth_endpoint: /auth
 
-  # Add these two lines:
-  site_url: https://www.pathogens.ibt.unam.mx
-  display_url: https://www.pathogens.ibt.unam.mx
-
-local_backend: false
+site_url: https://www.pathogens.ibt.unam.mx
+display_url: https://www.pathogens.ibt.unam.mx
 
 media_folder: "static/images"
 public_folder: "/images"
@@ -18,6 +15,8 @@ collections:
   - name: "posts"
     label: "Posts"
     folder: "content/posts"
+    extension: "md"
+    format: "yaml-frontmatter"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
