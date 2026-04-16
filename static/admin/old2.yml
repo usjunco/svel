@@ -3,6 +3,7 @@ backend:
   repo: usjunco/svel
   branch: main
   base_url: https://sveltia-cms-auth.usju5296.workers.dev/
+  auth_endpoint: /auth
 
 site_url: https://www.pathogens.ibt.unam.mx
 display_url: https://www.pathogens.ibt.unam.mx
